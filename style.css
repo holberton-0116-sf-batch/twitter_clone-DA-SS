@@ -4,9 +4,16 @@
 
 .logo {
     height: 100px;
+}
+
+.logo-wrapper {
     float: left;
 }
 
 .nav {
     float: right;
+}
+
+.tagline {
+    float: left;
 }
