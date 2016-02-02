@@ -25,3 +25,12 @@
     border: 1px solid black;
     background-color:aliceblue; 
 }
+
+.main {
+    clear: left;
+}
+
+.photo img{
+    height: 100px;
+    float: left;
+}
