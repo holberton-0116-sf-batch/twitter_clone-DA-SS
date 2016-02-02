@@ -28,9 +28,41 @@
 
 .main {
     clear: left;
+    padding: 35px;
+    padding-bottom: 100px;
+    border: 1px solid red;
 }
 
 .photo img{
     height: 100px;
     float: left;
+    padding: 15px;
+}
+
+.status {
+    clear: left;
+    padding-top: 15px;
+}
+
+.description {
+    padding: 20px;
+}
+
+.bottom-right {
+    position: fixed;
+    left: 720px;
+    bottom: 10px;
+    height; 80px;
+    font-size: 18px;
+    font-family: Arial;
+    color: aquamarine;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav a:hover {
+    background-color: darkseagreen;
 }
