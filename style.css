@@ -6,16 +6,6 @@
     height: 100px;
 }
 
-.logo-wrapper {
-    float: left;
-}
-
-.nav {
-    float: right;
-}
-.menu > li{
-    float: left;
-}
-.menu-wrapper{
-    padding-top:120px;   
+.account {
+    text-align: right;
 }
