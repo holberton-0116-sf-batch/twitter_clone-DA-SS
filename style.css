@@ -35,4 +35,7 @@ nav {
 
 nav li {
     display: inline;
+    padding: 10px;
+    border: solid;
+    background-color: #e0d0f0;
 }
