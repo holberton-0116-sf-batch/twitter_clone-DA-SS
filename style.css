@@ -6,12 +6,20 @@
     height: 100px;
 }
 
-.logotag {
+.parent {
     display: inline-block;
 }
 
 .account {
     display: inline-block;
     vertical-align: top;
-    text-align: right;
+    float: right;e
+}
+
+li {
+    display: inline;
+}
+
+li a:hover {
+    background-color: #e6e6e6;
 }
