@@ -13,7 +13,9 @@
 .nav {
     float: right;
 }
-
 .menu > li{
     float: left;
+}
+.menu-wrapper{
+    padding-top:120px;   
 }
