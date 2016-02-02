@@ -57,3 +57,12 @@
     font-family: Arial;
     color: aquamarine;
 }
+
+.nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav a:hover {
+    background-color: darkseagreen;
+}
