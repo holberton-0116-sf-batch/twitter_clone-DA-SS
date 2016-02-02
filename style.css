@@ -13,3 +13,7 @@
 .nav {
     float: right;
 }
+
+.menu > li{
+    float: left;
+}
