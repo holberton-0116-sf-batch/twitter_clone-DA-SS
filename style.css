@@ -33,9 +33,13 @@ nav {
     text-align: center;
 }
 
-nav li {
-    display: inline;
-    padding: 10px;
-    border: solid;
+nav ul {
+    display:inline-block;
+}
+
+nav ul li {
+    float: right;
     background-color: #e0d0f0;
+    padding: 5px 30px;
+    border: 2px solid white;
 }
