@@ -3,7 +3,7 @@ a {
 }
 
 .container {
-    width: 992px;
+    width: px;
 }
 
 .logo {
@@ -57,8 +57,13 @@ nav ul li {
 
 section {
     float: left;
+    width: 70%;
 }
 
 aside {
     float: right;
+}
+
+.photo {
+    height: 100px;
 }
