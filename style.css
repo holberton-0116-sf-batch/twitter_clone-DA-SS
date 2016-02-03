@@ -26,6 +26,10 @@ a {
     padding-right: 4px;
 }
 
+.account li:last-child {
+    border-right: none;
+}
+
 li a {
     text-decoration: none;
     color: black;
@@ -49,4 +53,12 @@ nav ul li {
     padding: 5px 30px;
     border: 2px solid black;
     margin: 3px;
+}
+
+section {
+    float: left;
+}
+
+aside {
+    float: right;
 }
