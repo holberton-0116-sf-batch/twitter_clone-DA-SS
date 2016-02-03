@@ -60,12 +60,11 @@ nav li{
     padding: 20px;
 }
 
-main {
-    clear: left;
-    padding: 35px;
-    padding-bottom: 100px;
-    border: 1px solid red;
-    width: 60%;
+section {      
+    float: left;
+   padding: 35px 0;
+   position: relative;
+   width: 70%      
 }
 
 .bottom-right {
@@ -94,6 +93,7 @@ aside .photo {
 
 aside {
     float: right;
+    padding: 70px 0 30px;
     position: relative;
-    width: 40%;
+    width: 25%
 }
