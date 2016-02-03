@@ -45,7 +45,7 @@ nav li{
     margin:0.5em;
 }
 
-.photo img{
+.status .photo img{
     height: 100px;
     float: left;
     padding: 15px;
@@ -64,7 +64,7 @@ section {
     float: left;
    padding: 35px 0;
    position: relative;
-   width: 70%      
+   width: 70% ;     
 }
 
 .bottom-right {
@@ -77,7 +77,7 @@ section {
     color: aquamarine;
 }
 
-.name {
+.status .name {
     font-weight: bold;
     font-family: arial;
     float: left;
@@ -87,13 +87,17 @@ section {
     float: right;
 }
 
-aside .photo {
-    height: "50px";
+aside .name {
+    font-weight: bold;
+    font-family: arial;
+}
+aside .photo img{
+    height: 50px;
 }
 
 aside {
     float: right;
     padding: 70px 0 30px;
     position: relative;
-    width: 25%
+    width: 25%;
 }
