@@ -21,10 +21,14 @@ a {
     color:red;
 }
 .account li{
-    display:inline;
-    margin:0.5em;
+    display:inline;   
 }
-
+.account li + li::before {
+    content: " | ";
+}
+.account a {    
+     text-decoration: none;     
+}
 .account a:hover {
      background-color:aqua;
      text-decoration: underline;
