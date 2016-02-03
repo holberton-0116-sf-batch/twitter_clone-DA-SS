@@ -1,6 +1,5 @@
-a {
-    text-decoration: none;
-    color: black;
+a {    
+    color: red;
 }
 
 .container {
@@ -45,7 +44,10 @@ nav li{
     background-color:aliceblue; 
     margin:0.5em;
 }
-
+ nav li a{
+     text-decoration: none;
+     color:black;
+}
 .status .photo img{
     height: 100px;
     float: left;
