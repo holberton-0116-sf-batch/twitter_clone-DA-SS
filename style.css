@@ -66,11 +66,11 @@ nav li{
     padding: 20px;
 }
 
-section {      
+section {
     float: left;
-   padding: 35px 0;
-   position: relative;
-   width: 70% ;     
+    padding: 35px 0;
+    position: relative;
+    width: 70%;
 }
 
 .bottom-right {
@@ -93,7 +93,8 @@ section {
     float: right;
 }
 
-aside .name {
+
+.aside .name {
     font-weight: bold;
     font-family: arial;
 }
