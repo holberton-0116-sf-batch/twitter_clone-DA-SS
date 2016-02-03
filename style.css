@@ -24,8 +24,9 @@ a {
 }
 
 .account a:hover {
-     background-color: darkseagreen;
+     background-color:aqua;
      text-decoration: underline;
+     color:blueviolet;
 }
 
 nav {
