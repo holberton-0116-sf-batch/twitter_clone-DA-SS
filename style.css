@@ -62,7 +62,7 @@ nav li{
 
 section {
     float: left;
-    padding: 35px;
+    padding: 35px 0;
     position: relative;
     width: 70%;
 }
@@ -77,7 +77,7 @@ section {
     color: aquamarine;
 }
 
-.name {
+.status .name {
     font-weight: bold;
     font-family: arial;
     float: left;
@@ -87,8 +87,13 @@ section {
     float: right;
 }
 
-aside .photo {
-    height: "50px";
+.aside .name {
+    font-weight: bold;
+    font-family: arial;
+}
+
+aside .photo img{
+    height: 50px;
 }
 
 aside {
