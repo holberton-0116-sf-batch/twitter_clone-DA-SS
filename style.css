@@ -22,6 +22,8 @@ a {
 
 .account li {
     display: inline;
+    border-right: 1px solid black;
+    padding-right: 4px;
 }
 
 li a {
@@ -42,8 +44,9 @@ nav ul {
 }
 
 nav ul li {
-    float: right;
+    float: left;
     background-color: #e0d0f0;
     padding: 5px 30px;
-    border: 2px solid white;
+    border: 2px solid black;
+    margin: 3px;
 }
