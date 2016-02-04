@@ -7,6 +7,7 @@ a {
     margin: auto;   
     border: 3px solid #73AD21;
     padding: 10px;
+    border-radius: 10px;
 }
 
 .logo {
@@ -33,9 +34,9 @@ a {
      text-decoration: none;     
 }
 .account a:hover {
-     background-color:aqua;
+     background-color:#73AD21;
      text-decoration: underline;
-     color:blueviolet;
+     color:black;
 }
 
 nav {
@@ -61,7 +62,7 @@ nav li{
 .status .photo img{
     height: 100px;
     float: left;
-    padding: 15px;
+    padding-left: 20px;    
 }
 
 .status {
@@ -70,24 +71,28 @@ nav li{
 }
 
 .description {
-    padding: 20px;
+    padding:10px 20px;
+    clear: right;
 }
 
 section {
     float: left;
-    padding: 35px 0;
-    position: relative;
-    width: 70%;
+    padding: 35px 0;    
+    width: 70%;      
+    border: 3px solid #73AD21;
 }
 
 .bottom-right {
     position: fixed;
-    left: 720px;
-    bottom: 10px;
+    left: 940px;
+    bottom: 1px;
     height; 80px;
     font-size: 18px;
     font-family: Arial;
-    color: aquamarine;
+    color: #73AD21; 
+    border: 3px solid #73AD21;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 .status .name {
@@ -98,19 +103,32 @@ section {
 
 .date {
     float: right;
+    margin-right:1.2em;
 }
-.aside .name {
+
+aside .name {
     font-weight: bold;
     font-family: arial;
 }
-
 aside .photo img{
     height: 50px;
 }
 
 aside {
     float: right;
-    padding: 70px 0 30px;
-    position: relative;
-    width: 25%;
+    padding: 70px 0 30px;  
+    width: 25%;  
+    overflow:auto;
+    border: 3px solid #73AD21;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+section, aside{
+    margin-top:1.5em;
+    border-radius: 10px;
+  
+}
+.user{
+     padding-top: 15px;
 }
