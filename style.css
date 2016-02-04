@@ -68,6 +68,8 @@ nav li{
 .status {
     clear: left;
     padding-top: 15px;
+    border-bottom:1px solid #F2F2F2;
+    min-height:110px;
 }
 
 .description {
