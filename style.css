@@ -62,7 +62,7 @@ nav li{
 .status .photo img{
     height: 100px;
     float: left;
-    padding: 15px;
+    padding-left: 20px;    
 }
 
 .status {
@@ -71,7 +71,8 @@ nav li{
 }
 
 .description {
-    padding: 20px;
+    padding:10px 20px;
+    clear: right;
 }
 
 section {
