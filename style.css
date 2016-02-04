@@ -4,6 +4,7 @@ a {
 
 .container {
     width: 992px;
+    margin: auto;
 }
 
 .logo {
@@ -84,5 +85,9 @@ p {
 }
 
 .user-wrapper {
+    float: left;
+}
+
+post-wrapper {
     float: left;
 }
