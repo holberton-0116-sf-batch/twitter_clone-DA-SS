@@ -66,4 +66,16 @@ aside {
 
 .photo {
     height: 100px;
+    float: left;
+}
+
+#name {
+    float: left;
+    clear: left;
+}
+
+
+.description {
+    display: block;
+    padding-left: 0px;
 }
