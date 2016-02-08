@@ -1,12 +1,21 @@
-a {    
+a {
     color: red;
 }
 
+body {
+    background-color: #F2F5ED;
+}
+
+
+/* 992px fixed-width website*/
+
 .container {
     width: 992px;
-    margin: auto;        
-    border-radius: 10px; 
-    border: 3px solid #73AD21;
+    margin: auto;
+    border-radius: 10px;
+    border: 1px solid #73AD21;
+    background-color: #FFFFFF;
+    box-shadow: 5px 8px 5px #EBEBEB;
 }
 
 .logo {
@@ -15,87 +24,125 @@ a {
 
 .logo-wrapper {
     float: left;
-    padding:5px 30px;
+    padding: 5px 30px;
 }
 
 .account {
-    float: right; 
-    padding:5px 20px;
+    float: right;
+    padding: 5px 20px;
 }
+
 .account ul {
-    color:red;
+    color: red;
 }
-.account li{
-    display:inline;   
+
+.account li {
+    display: inline;
 }
+
+
+/*| character separating the list items at the top right*/
+
 .account li + li::before {
     content: " | ";
 }
-.account a {    
-     text-decoration: none;     
+
+
+/* links do not appear as underlined when not hovered  
+2 full seconds to change font color and background color
+*/
+
+.account a {
+    text-decoration: none;
+    background-color: white;
+    color: red;
+    transition-property: color background-color;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+    -webkit-transition-property: color background-color;
+    -webkit-transition-duration: 2s;
+    -webkit-transition-timing-function: ease;
 }
+
+
+/* on hover  changing the font color of  links and link's background to a very different color 
+ 2 full seconds to change font color and background color
+*/
+
 .account a:hover {
-     background-color:#73AD21;
-     text-decoration: underline;
-     color:black;
+    background-color: #73AD21;
+    text-decoration: underline;
+    color: black;
+    transition-property: color background-color;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+    -webkit-transition-property: color background-color;
+    -webkit-transition-duration: 2s;
+    -webkit-transition-timing-function: ease;
 }
 
 nav {
-    clear:left;
-    text-align:center;      
+    clear: left;
+    text-align: center;
+    font-size: 20px;
+    height: 40px;
 }
 
 nav ul {
-    display:inline-block;
+    display: inline-block;
+    border-left-color: 1px solid #f2f2f2;
 }
 
-nav li{
-    float: left;
-    padding: 10px;
-    border: 2px solid black;
-    background-color:aliceblue; 
-    margin:0.4em;
+nav li a {
+    text-decoration: none;
+    color: black;
 }
- nav li a{
-     text-decoration: none;
-     color:black;
-}
-section .photo img{
+
+article .photo img,
+.usersection .photo .img {
     height: 100px;
     float: left;
-    padding-left: 20px;    
+    padding-left: 20px;
 }
 
-article{
+article,
+.user,
+.octopus {
     clear: left;
     padding-top: 15px;
-    border-bottom:1px solid #F2F2F2;
-    min-height:110px;
+    border-bottom: 1px solid #F2F2F2;
+    min-height: 110px;
 }
 
 .description {
-    padding:10px 20px;
+    padding: 10px 20px;
     clear: right;
 }
 
-section {
+.statuses,
+.usersection,
+.octopussection {
     float: left;
-    padding: 5px 0;    
-    width: 70%;      
-    border: 3px solid #73AD21;   
+    padding: 5px 0;
+    width: 70%;
+    border: 1px solid #73AD21;
 }
 
+
+/*a small box to welcome  users, and advise them that the application is in beta. */
+
 .bottom-right {
-    position:fixed;
-    bottom:0;  
-    margin-left    :718px;
-    height; 80px;
+    position: fixed;
+    bottom: 0;
+    margin-left: 718px;
+    height;
+    80px;
     font-size: 18px;
-    font-family: Arial;    
-    border: 3px solid #73AD21;
+    font-family: Arial;
+    border: 1px solid #73AD21;
     padding: 5px;
     border-radius: 10px;
-    background-color:#E0EEE0;
+    background-color: #F3F4EC;
 }
 
 .status .name {
@@ -106,36 +153,104 @@ section {
 
 .date {
     float: right;
-    margin-right:1.2em;
+    margin-right: 1.2em;
 }
 
-.name {
+h2 {
     font-weight: bold;
     font-family: arial;
 }
-aside .photo img{
+
+aside .photo img {
     height: 50px;
 }
 
 aside {
     float: right;
-    padding: 70px 0 30px;  
-    width: 25%;  
-    overflow:auto;
-    border: 3px solid #73AD21;
+    padding: 70px 0 30px;
+    width: 25%;
+    overflow: auto;
+    border: 1px solid #73AD21;
     padding: 10px;
     border-radius: 10px;
 }
 
-section, aside{
-    margin-top:1.1em;
+.statuses,
+aside,
+.usersection,
+.octopussection {
+    margin-top: 1.1em;
     border-radius: 10px;
-  
+    background-color: #FFFFFF;
+    box-shadow: 5px 8px 5px #EBEBEB;
 }
-.user{
-     padding-top: 15px;
-    clear:left;
+
+.user {
+    padding-top: 15px;
+    clear: left;
 }
-.usersection{
-    width:100%;
+
+.usersection,
+.octopussection {
+    width: 100%;
 }
+
+nav ul li {
+    float: left;
+    margin: 0.3em 0.6em;
+}
+
+.octopus {
+    min-height: 200px;
+}
+
+.octopus .description,
+.octopus h2 {
+    padding: 10px 50px;
+    clear: right;
+    margin-left: 90px;
+}
+
+.octopussection h1 {
+    font-size: 40px;
+    padding: 50px;
+    font-family: fantasy;
+    font-weight: 200;
+}
+
+
+/*Nav Link Buttons*/
+
+.navButton {
+    background-color: #F2F5ED;
+    color: #222222;
+    padding: 3px 21px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 21px;
+    border: 1px solid #dedede;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    cursor: pointer;
+    transition: background-color 2s, color 2s, ;
+    padding-bottom: 8px !important;
+    border-bottom: #73AD21 solid 0px;
+    background-position: 0 100%;
+}
+
+.navButton:hover {
+    border-bottom: #73AD21 solid 3px;
+    background-color: white;
+    color: #73AD21;
+    background-position: 0 -100%;
+}
+
+.navButton:active {
+    border-bottom: red solid 3px;
+    background-color: #F2F2F2;
+    color: #73AD21;
+}
+
+
+/*End*/
