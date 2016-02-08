@@ -76,13 +76,13 @@ nav ul {
      text-decoration: none;
       color:black;      
 }
-section .photo img{
+article .photo img,.usersection .photo .img{
     height: 100px;
     float: left;
     padding-left: 20px;    
 }
 
-article{
+article,.user,.octopus{
     clear: left;
     padding-top: 15px;
     border-bottom:1px solid #F2F2F2;
@@ -94,7 +94,7 @@ article{
     clear: right;
 }
 
-section {
+.statuses,.usersection,.octopussection {
     float: left;
     padding: 5px 0;    
     width: 70%;      
@@ -125,7 +125,7 @@ section {
     margin-right:1.2em;
 }
 
-.name {
+h2 {
     font-weight: bold;
     font-family: arial;
 }
@@ -143,17 +143,17 @@ aside {
     border-radius: 10px;
 }
 
-section, aside{
+.statuses, aside,.usersection,.octopussection{
     margin-top:1.1em;
     border-radius: 10px;
      background-color:#FFFFFF;
-   box-shadow: 5px 8px 5px #EBEBEB;
+     box-shadow: 5px 8px 5px #EBEBEB;
 }
 .user{
      padding-top: 15px;
     clear:left;
 }
-.usersection{
+.usersection,.octopussection{
     width:100%;
 }
 
@@ -195,11 +195,17 @@ nav ul li{
     color:#73AD21;
 }
 /*End*/
-
-.octopussection{
-      width:100%;
-}
 .octopus{
-     padding-top: 15px;
-     clear:left;
+    min-height:200px;
+}
+.octopus .description ,.octopus h2{
+    padding:10px 50px;
+    clear: right;
+    margin-left: 90px;
+}
+.octopussection h1{
+    font-size:40px;
+    padding:50px;
+    font-family:fantasy;
+    font-weight:200;
 }
