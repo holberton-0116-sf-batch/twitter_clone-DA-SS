@@ -252,3 +252,34 @@ nav ul li {
 
 
 /*End*/
+
+
+/*media queries  for width<*/
+
+@media screen and (max-width:768px) {
+    .container {
+        width: 768px;
+        margin: auto;
+        border-radius: 10px;
+        border: 1px solid #73AD21;
+        background-color: #FFFFFF;
+        box-shadow: 5px 8px 5px #EBEBEB;
+    }
+    /* NEEDS CLEAN-UP */
+    aside {
+        clear: left;
+        float: left;
+        padding: 70px 0 30px;
+        width: 100%;
+        overflow: auto;
+        border: 1px solid #73AD21;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    .statuses {
+        width: 35%;
+    }    
+}
+
+
+/*media queries */
