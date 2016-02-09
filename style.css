@@ -131,6 +131,15 @@ article,
 
 /*a small box to welcome  users, and advise them that the application is in beta. */
 
+.bottom-right {
+    font-size: 18px;
+    font-family: Arial;
+    border: 1px solid #73AD21;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #F3F4EC;
+}
+
 .status .name {
     font-weight: bold;
     font-family: arial;
@@ -268,31 +277,25 @@ nav ul li {
         width: 35%;
     }
     .bottom-right {
-        position: fixed;
-        bottom: 0;
-        right:0;
-        font-size: 18px;
-        font-family: Arial;
-        border: 1px solid #73AD21;
-        padding: 5px;
-        border-radius: 10px;
-        background-color: #F3F4EC;
+        float: left;
+        width:100%;
     }
 }
 
-@media screen and (min-width:992px)
-{
+@media screen and (max-width:992px) and (min-width:768px) {
     .bottom-right {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    font-size: 18px;
-    font-family: Arial;
-    border: 1px solid #73AD21;
-    padding: 5px;
-    border-radius: 10px;
-    background-color: #F3F4EC;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+    }
 }
+
+@media screen and (min-width:992px) {
+    .bottom-right {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+    }
 }
 
 
