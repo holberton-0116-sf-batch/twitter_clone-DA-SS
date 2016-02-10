@@ -34,6 +34,7 @@ body {
     display: inline;
 }
 
+
 /*| character separating the list items at the top right*/
 
 .account li + li::before {
@@ -77,7 +78,7 @@ body {
 nav {
     clear: left;
     text-align: center;
-    font-size: 20px;    
+    font-size: 20px;
 }
 
 nav ul {
@@ -128,9 +129,8 @@ article,
     font-family: Arial;
     border: 1px solid #73AD21;
     padding: 5px 0px;
-    ;
     border-radius: 10px;
-    background-color: #F3F4EC;
+    background-color: #FFFFFF;
     margin: 0.1em;
 }
 
@@ -159,21 +159,22 @@ aside {
     padding: 5px 0 30px;
     width: 25%;
     overflow: auto;
-    border: 1px solid #73AD21;
-    border-radius: 10px;
 }
 
 .statuses,
-aside,
+.users,
+.ads,
 .usersection,
 .octopussection {
     margin-top: 1.1em;
     border-radius: 10px;
     background-color: #FFFFFF;
     box-shadow: 5px 8px 5px #EBEBEB;
+    border: 1px solid #73AD21;
+    border-radius: 10px;
 }
 
-.user {
+.users {
     padding-top: 15px;
     clear: left;
 }
@@ -245,7 +246,6 @@ nav ul li {
     .container {
         margin: 0px 15px;
     }
-    /* NEEDS CLEAN-UP */
     .statuses {
         width: 100%;
     }
@@ -255,7 +255,7 @@ nav ul li {
         float: left;
         width: 100%;
     }
-        /*the "beta" box at the bottom-right should be at the very bottom;*/
+    /*the "beta" box at the bottom-right should be at the very bottom;*/
     .bottom-right {
         float: left;
         width: 100%;
@@ -270,26 +270,34 @@ nav ul li {
         border: 1px solid #dedede;
         border-top-left-radius: 3px;
         border-top-right-radius: 3px;
-        padding-bottom: 8px !important;        
+        padding-bottom: 8px !important;
     }
-    h2{
-        word-wrap: break-word;    
+    h2 {
+        word-wrap: break-word;
     }
     nav {
         height: 70px;
     }
-    nav ul li{
+    nav ul li {
         margin: 0.3em 0.1em;
-    }   
-    .status time {margin-right:0.2em;font-size:12px;}
-    .status .name {font-size:12px;}
+    }
+    .status time {
+        margin-right: 0.2em;
+        font-size: 12px;
+    }
+    .status .name {
+        font-size: 12px;
+    }
 }
 
 @media screen and (max-width:992px) and (min-width:768px) {
-    .bottom-right {
-        position: fixed;
-        bottom: 0;
-        right: 0;
+    .logo-wrapper {
+        float: left;
+        padding: 5px 30px;
+    }
+    .account {
+        float: right;
+        padding: 5px 20px;
     }
     .navButton {
         padding: 3px 21px;
@@ -298,8 +306,33 @@ nav ul li {
         border-top-right-radius: 3px;
         padding-bottom: 8px !important;
     }
-     nav {
+    nav {
         height: 50px;
+    }
+    .statuses {
+        width: 100%;
+    }
+    aside {
+        clear: both;
+        width: 79%;
+        float: left;
+    }
+    /*under them should be the block(s) that used to be at the right of your screen, in the aside;*/
+    .users{
+        float: left;
+        width: 48%;
+        margin: 0px 4px;
+    }
+    .ads {
+        float: left;
+        width: 48%;
+        margin: 0px 1px;
+    }
+    /*the "beta" box at the bottom-right should be at the very bottom;*/
+    .bottom-right {
+        float: left;
+        width: 20%;
+        margin: 5px 2px;
     }
 }
 
@@ -328,7 +361,7 @@ nav ul li {
         border-top-right-radius: 3px;
         padding-bottom: 8px !important;
     }
-     nav {
+    nav {
         height: 50px;
     }
 }
