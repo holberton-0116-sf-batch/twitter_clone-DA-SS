@@ -318,7 +318,7 @@ nav ul li {
         float: left;
     }
     /*under them should be the block(s) that used to be at the right of your screen, in the aside;*/
-    .users{
+    .users {
         float: left;
         width: 48%;
         margin: 0px 4px;
