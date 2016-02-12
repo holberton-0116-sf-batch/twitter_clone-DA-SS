@@ -321,18 +321,21 @@ nav ul li {
     .users {
         float: left;
         width: 48%;
-        margin: 0px 4px;
+        margin: 0px 5px;
     }
     .ads {
         float: left;
         width: 48%;
-        margin: 0px 1px;
+        margin: 0px 5px;
     }
     /*the "beta" box at the bottom-right should be at the very bottom;*/
     .bottom-right {
         float: left;
         width: 20%;
         margin: 5px 2px;
+    }
+    aside .users{
+        margin-top:0;
     }
 }
 
