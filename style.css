@@ -99,7 +99,7 @@ article .photo img,
 }
 
 article,
-.user,
+.user,.usersection,
 .octopus {
     clear: left;
     padding: 15px;
@@ -162,7 +162,7 @@ aside {
 }
 
 .statuses,
-.users,
+aside .users, 
 .ads,
 .usersection,
 .octopussection {
@@ -170,8 +170,7 @@ aside {
     border-radius: 10px;
     background-color: #FFFFFF;
     box-shadow: 5px 8px 5px #EBEBEB;
-    border: 1px solid #73AD21;
-    border-radius: 10px;
+    border: 1px solid #73AD21;   
 }
 
 .users {
@@ -181,7 +180,7 @@ aside {
 
 .usersection,
 .octopussection {
-    width: 100%;
+   width: 99%;
 }
 
 nav ul li {
@@ -277,6 +276,7 @@ nav ul li {
     }
     nav {
         height: 70px;
+        clear: right;
     }
     nav ul li {
         margin: 0.3em 0.1em;
