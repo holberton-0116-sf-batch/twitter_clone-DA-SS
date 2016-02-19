@@ -10,31 +10,35 @@ body {
 /* 992px fixed-width website*/
 
 .container {
-    margin: auto;
+    margin: auto;       
+    flex-direction: column;
+}
+
+header{
     border-radius: 10px;
     border: 1px solid #73AD21;
     background-color: #FFFFFF;
     box-shadow: 5px 8px 5px #EBEBEB;   
-     display:flex;   
 }
-
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;    
+}
 .logo {
-    height: 100px;
+    height: 100px;   
 }
 
 .account {       
-    padding: 5px 20px;     
+    padding: 5px 20px; 
+    
 }
 
 .account ul {
     color: red;
-    display:flex;   
+    display:flex;  
+    justify-content: flex-end;
 }
-
-.account li {
-    
-}
-
 
 /*| character separating the list items at the top right*/
 
@@ -77,13 +81,13 @@ body {
 }
 
 nav {
-    clear: left;
     text-align: center;
     font-size: 20px;
 }
 
 nav ul {
     display:flex; 
+    justify-content: center;
     border-left-color: 1px solid #f2f2f2;
 }
 
@@ -94,31 +98,38 @@ nav li a {
 
 article .photo img,
 .usersection .photo .img {
-    height: 100px;
-    
+    height: 100px;    
     padding-left: 20px;
+    display:flex; 
+    
+}
+.top-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 article,
 .user,.usersection,
-.octopus {
-    clear: left;
+.octopus {  
     padding: 15px;
     border-bottom: 1px solid #F2F2F2;
-    min-height: 110px;
+    min-height: 110px;  
+    display: flex;       
 }
 
 .description {
-    padding: 10px 20px;
-    
+    padding: 10px 20px;    
 }
-
+section{
+    display: flex;       
+     justify-content: space-between;
+}
 .statuses,
 .usersection,
-.octopussection {   
-    padding: 5px 0;
+.octopussection {    
     width: 70%;
-    border: 1px solid #73AD21;
+    border: 1px solid #73AD21;       
 }
 
 
@@ -136,13 +147,11 @@ article,
 
 .status .name {
     font-weight: bold;
-    font-family: arial;
-   
+    font-family: arial;  
 }
 
-.date {
-  
-    margin-right: 1.2em;
+.date {   
+ justify-content: flex-end;   
 }
 
 h2 {
@@ -170,7 +179,7 @@ aside .users,
     border-radius: 10px;
     background-color: #FFFFFF;
     box-shadow: 5px 8px 5px #EBEBEB;
-    border: 1px solid #73AD21;   
+    border: 1px solid #73AD21;       
 }
 
 .users {
@@ -268,8 +277,7 @@ nav ul li {
         word-wrap: break-word;
     }
     nav {
-        height: 70px;
-        clear: right;
+        height: 70px;       
     }
     nav ul li {
         margin: 0.3em 0.1em;
@@ -339,9 +347,8 @@ nav ul li {
     .logo-wrapper {      
         padding: 5px 30px;
     }
-    .account {
-       
-        padding: 5px 20px;
+    .account {       
+        padding: 5px 20px;    
     }
     .navButton {
         padding: 3px 21px;
