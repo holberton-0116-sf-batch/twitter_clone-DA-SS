@@ -14,20 +14,21 @@ body {
     border-radius: 10px;
     border: 1px solid #73AD21;
     background-color: #FFFFFF;
-    box-shadow: 5px 8px 5px #EBEBEB;
+    box-shadow: 5px 8px 5px #EBEBEB;   
+     display:flex;   
 }
 
 .logo {
     height: 100px;
 }
 
-.account {   
-    
-    padding: 5px 20px;
+.account {       
+    padding: 5px 20px;     
 }
 
 .account ul {
     color: red;
+    display:flex;   
 }
 
 .account li {
@@ -82,7 +83,7 @@ nav {
 }
 
 nav ul {
-    
+    display:flex; 
     border-left-color: 1px solid #f2f2f2;
 }
 
