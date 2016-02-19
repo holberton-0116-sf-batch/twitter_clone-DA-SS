@@ -21,8 +21,8 @@ body {
     height: 100px;
 }
 
-.account {
-    float: right;
+.account {   
+    
     padding: 5px 20px;
 }
 
@@ -31,7 +31,7 @@ body {
 }
 
 .account li {
-    display: inline;
+    
 }
 
 
@@ -82,7 +82,7 @@ nav {
 }
 
 nav ul {
-    display: inline-block;
+    
     border-left-color: 1px solid #f2f2f2;
 }
 
@@ -94,7 +94,7 @@ nav li a {
 article .photo img,
 .usersection .photo .img {
     height: 100px;
-    float: left;
+    
     padding-left: 20px;
 }
 
@@ -109,13 +109,12 @@ article,
 
 .description {
     padding: 10px 20px;
-    clear: right;
+    
 }
 
 .statuses,
 .usersection,
-.octopussection {
-    float: left;
+.octopussection {   
     padding: 5px 0;
     width: 70%;
     border: 1px solid #73AD21;
@@ -137,11 +136,11 @@ article,
 .status .name {
     font-weight: bold;
     font-family: arial;
-    float: left;
+   
 }
 
 .date {
-    float: right;
+  
     margin-right: 1.2em;
 }
 
@@ -155,7 +154,7 @@ aside .photo img {
 }
 
 aside {
-    float: right;
+   
     padding: 5px 0 30px;
     width: 25%;
     overflow: auto;
@@ -175,7 +174,7 @@ aside .users,
 
 .users {
     padding-top: 15px;
-    clear: left;
+    
 }
 
 .usersection,
@@ -183,8 +182,7 @@ aside .users,
    width: 99%;
 }
 
-nav ul li {
-    float: left;
+nav ul li {   
     margin: 0.3em 0.6em;
 }
 
@@ -194,8 +192,7 @@ nav ul li {
 
 .octopus .description,
 .octopus h2 {
-    padding: 10px 50px;
-    clear: right;
+    padding: 10px 50px;   
     margin-left: 90px;
 }
 
@@ -212,8 +209,7 @@ nav ul li {
 .navButton {
     background-color: #F2F5ED;
     color: #222222;
-    text-decoration: none;
-    display: inline-block;
+    text-decoration: none;    
     font-size: 21px;
     cursor: pointer;
     transition: background-color 2s, color 2s;
@@ -249,19 +245,15 @@ nav ul li {
         width: 100%;
     }
     /*under them should be the block(s) that used to be at the right of your screen, in the aside;*/
-    aside {
-        clear: left;
-        float: left;
+    aside {          
         width: 100%;
     }
     /*the "beta" box at the bottom-right should be at the very bottom;*/
-    .bottom-right {
-        float: left;
+    .bottom-right {      
         width: 100%;
     }
     /*the logo should be above the two menus, which should be one above the other;*/
     .account {
-        float: right;
         padding: 5px 20px;
     }
     .navButton {
@@ -292,11 +284,10 @@ nav ul li {
 
 @media screen and (max-width:992px) and (min-width:768px) {
     .logo-wrapper {
-        float: left;
+       
         padding: 5px 30px;
     }
     .account {
-        float: right;
         padding: 5px 20px;
     }
     .navButton {
@@ -312,25 +303,20 @@ nav ul li {
     .statuses {
         width: 100%;
     }
-    aside {
-        clear: both;
-        width: 79%;
-        float: left;
+    aside {       
+        width: 79%;      
     }
     /*under them should be the block(s) that used to be at the right of your screen, in the aside;*/
-    .users {
-        float: left;
+    .users {       
         width: 48%;
         margin: 0px 5px;
     }
-    .ads {
-        float: left;
+    .ads {       
         width: 48%;
         margin: 0px 5px;
     }
     /*the "beta" box at the bottom-right should be at the very bottom;*/
-    .bottom-right {
-        float: left;
+    .bottom-right {       
         width: 20%;
         margin: 5px 2px;
     }
@@ -349,12 +335,11 @@ nav ul li {
     .container {
         width: 992px;
     }
-    .logo-wrapper {
-        float: left;
+    .logo-wrapper {      
         padding: 5px 30px;
     }
     .account {
-        float: right;
+       
         padding: 5px 20px;
     }
     .navButton {
