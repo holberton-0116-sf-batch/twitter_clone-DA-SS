@@ -250,8 +250,7 @@ nav ul li {
     .account {
         padding: 5px 20px;
     }
-    .navButton {
-        padding: 3px 1px;
+    .navButton {       
         border: 1px solid #dedede;
         border-top-left-radius: 3px;
         border-top-right-radius: 3px;
