@@ -207,6 +207,9 @@ nav ul li {
     transition: background-color 2s, color 2s;
     border-bottom: #73AD21 solid 0px;
     background-position: 0 100%;
+    -webkit-transition-property: color background-color;
+    -webkit-transition-duration: 2s;
+    -webkit-transition-timing-function: ease;
 }
 
 .navButton:hover {
@@ -214,12 +217,18 @@ nav ul li {
     background-color: white;
     color: #73AD21;
     background-position: 0 -100%;
+    -webkit-transition-property: color background-color;
+    -webkit-transition-duration: 2s;
+    -webkit-transition-timing-function: ease;
 }
 
 .navButton:active {
     border-bottom: red solid 3px;
     background-color: #F2F2F2;
     color: #73AD21;
+    -webkit-transition-property: color background-color;
+    -webkit-transition-duration: 2s;
+    -webkit-transition-timing-function: ease;
 }
 
 
