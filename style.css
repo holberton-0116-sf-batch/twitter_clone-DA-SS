@@ -130,8 +130,7 @@ article,
     border: 1px solid #73AD21;
     padding: 5px 0px;
     border-radius: 10px;
-    background-color: #FFFFFF;
-    margin: 0.1em;
+    background-color: #FFFFFF;   
 }
 
 .status .name ,.octopous .name{
@@ -203,8 +202,7 @@ nav ul li {
 .navButton {
     background-color: #F2F5ED;
     color: #222222;
-    text-decoration: none;
-    font-size: 21px;
+    text-decoration: none;    
     cursor: pointer;
     transition: background-color 2s, color 2s;
     border-bottom: #73AD21 solid 0px;
@@ -242,19 +240,17 @@ nav ul li {
     aside {
         width: 100%;
     }
-    /*the "beta" box at the bottom-right should be at the very bottom;*/
-    .bottom-right {
-        width: 100%;
-    }
+      
     /*the logo should be above the two menus, which should be one above the other;*/
     .account {
         padding: 5px 20px;
     }
     .navButton {       
         border: 1px solid #dedede;
-        border-top-left-radius: 3px;
-        border-top-right-radius: 3px;
-        padding-bottom: 8px !important;
+        border-top-left-radius: 1px;
+        border-top-right-radius: 1px;
+        padding-bottom: 2px !important;
+        font-size: 21px;
     }
     h2 {
         word-wrap: break-word;
@@ -277,6 +273,10 @@ nav ul li {
         flex-direction: column;
         justify-content: space-around;
     }
+    
+    .bottom-right{
+        padding: 15px;
+    }
 }
 
 @media screen and (max-width:992px) and (min-width:768px) {
@@ -292,8 +292,8 @@ nav ul li {
     .navButton {
         padding: 3px 21px;
         border: 1px solid #dedede;
-        border-top-left-radius: 3px;
-        border-top-right-radius: 3px;
+        border-top-left-radius: 1px;
+        border-top-right-radius: 1px;
         padding-bottom: 8px !important;
     }
     nav {
@@ -356,6 +356,7 @@ nav ul li {
         border-top-left-radius: 3px;
         border-top-right-radius: 3px;
         padding-bottom: 8px !important;
+        font-size: 21px;
     }
     nav {
         height: 50px;
