@@ -13,6 +13,8 @@
     <!-- Fav Icon -->
     <link rel="shortcut icon" type="image/png" href="leaf_960_720.png">
     <!-- Fav Icon -->
+    
+    <script src="post_a_status.js"></script>
 </head>
 
 <body>
@@ -41,6 +43,17 @@
         </header>
 
         <main>
+            
+            <div class="post" >
+                <div ><a id="poststatus"> Post a status</a></div>
+                <form class="postform" id="postform">
+                    <textarea class="postarea" rows="4"></textarea><br>
+                    <div class="postcontrols">
+                        <input type="checkbox" ><p class="postlocation">Include Location</p><span class="_space"></span>
+                    <input type="submit"  value="Post" class="postbutton"/> 
+                    </div>
+                </form>
+            </div>
             <div class="statuses">
                 <article class="status">
                     <figure class="photo"><img src="icon-user.png" alt="User Photo"></figure>
