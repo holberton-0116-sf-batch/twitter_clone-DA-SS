@@ -35,8 +35,13 @@ header {
 
 /*| character separating the list items at the top right*/
 
-.account li + li::before {
-    content: " | ";
+.account li {
+    padding-right: 4px;
+    padding-left: 4px;
+}
+
+.account li + li {
+    border-left: 1px solid green;
 }
 
 
