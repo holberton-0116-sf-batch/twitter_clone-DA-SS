@@ -108,9 +108,18 @@ article,
 .ads {
     clear: left;
     padding: 15px;
-    border-bottom: 1px solid #F2F2F2;
     min-height: 110px;
+/*    border-bottom: 2px solid #F2F2F2;*/
 }
+
+article + article,
+.user + .user,
+.usersection + .usersection,
+.octopus + .octopus,
+.ads + .ads {
+    border-top: 2px solid #F2F2F2;
+}
+
 .usersection{
     padding: 0px;
 }
