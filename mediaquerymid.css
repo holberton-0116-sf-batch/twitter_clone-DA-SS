@@ -18,7 +18,7 @@
     nav {
         height: 50px;
     }
-    .statuses,.usersection {
+    .statuses,.usersection,.post,.poststatus  {
         width: 100%;
     }
     aside {

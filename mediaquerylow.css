@@ -5,7 +5,7 @@
     .container {
         margin: 0px 15px;
     }
-    .statuses,.usersection {
+    .statuses,.usersection, .post,.poststatus {
         width: 100%;
     }
     /*under them should be the block(s) that used to be at the right of your screen, in the aside;*/
