@@ -1,0 +1,46 @@
+@media screen and (min-width:992px) {
+    .bottom-right {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+    }
+    /* 992px fixed-width website*/
+    .container {
+        width: 992px;
+    }
+    .logo-wrapper {
+        padding: 5px 30px;
+    }
+    .account {
+        padding: 5px 20px;
+    }
+    .navButton {
+        padding: 3px 21px;
+        border: 1px solid #dedede;
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+        padding-bottom: 8px !important;
+        font-size: 21px;
+    }
+    nav {
+        height: 50px;
+    }
+    aside {
+    padding: 0px 0 30px;
+    width: 25%;
+    overflow: auto;
+    }
+    main {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .top-header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+
+/*media queries */
