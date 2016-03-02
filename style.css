@@ -258,6 +258,8 @@ nav ul li {
     padding: 5px;    
     border-radius: 10px 10px 0px 0px;
     border-bottom: 2px solid #F2F2F2;
+   box-sizing: border-box;
+    resize: none;
 }
 
 .post a{
