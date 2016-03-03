@@ -1,0 +1,52 @@
+/*media queries  for width<768px*/
+
+@media screen and (max-width:768px) {
+    /*All of them must be fluid (take as much as they can of the screen's width), with 15px of margins to the left and right of (at least) the text, for the user's reading comfort.*/
+    .container {
+        margin: 0px 15px;
+    }
+    .statuses,.usersection, .post,.poststatus {
+        width: 100%;
+    }
+    /*under them should be the block(s) that used to be at the right of your screen, in the aside;*/
+    aside {
+        width: 100%;
+    }
+      
+    /*the logo should be above the two menus, which should be one above the other;*/
+    .account {
+        padding: 5px 20px;
+    }
+    .navButton {       
+        border: 1px solid #dedede;
+        border-top-left-radius: 1px;
+        border-top-right-radius: 1px;
+        padding-bottom: 2px !important;
+        font-size: 21px;
+    }
+    h2 {
+        word-wrap: break-word;
+    }
+    nav {
+        height: 70px;
+    }
+    nav ul li {
+        margin: 0.3em 0.1em;
+    }
+    .status time {
+        margin-right: 0.2em;
+        font-size: 12px;
+    }
+    .status .name {
+        font-size: 12px;
+    }
+     main {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    .bottom-right{
+        padding: 15px;
+    }
+}
