@@ -97,7 +97,8 @@ nav li a {
 }
 
 article .photo img,
-.usersection .photo .img,.octopus.photo .img {
+.usersection .photo .img,
+.octopus.photo .img {
     height: 100px;
     float: left;
     padding-left: 20px;
@@ -111,7 +112,6 @@ article,
     clear: left;
     padding: 15px;
     min-height: 110px;
-/*    border-bottom: 2px solid #F2F2F2;*/
 }
 
 article + article,
@@ -122,10 +122,10 @@ article + article,
     border-top: 2px solid #F2F2F2;
 }
 
-
-.usersection{
+.usersection {
     padding: 0px;
 }
+
 .description {
     padding: 10px 20px;
     clear: right;
@@ -148,10 +148,11 @@ article + article,
     border: 1px solid #73AD21;
     padding: 5px 0px;
     border-radius: 10px;
-    background-color: #FFFFFF;   
+    background-color: #FFFFFF;
 }
 
-.status .name ,.octopous .name{
+.status .name,
+.octopous .name {
     font-weight: bold;
     font-family: arial;
     float: left;
@@ -167,8 +168,7 @@ h2 {
     font-family: arial;
 }
 
-aside .photo img
-{
+aside .photo img {
     height: 50px;
 }
 
@@ -177,7 +177,7 @@ aside .users,
 aside .ads,
 .usersection,
 .octopussection,
-.poststatus{
+.poststatus {
     margin-top: 1.1em;
     border-radius: 10px;
     background-color: #FFFFFF;
@@ -204,7 +204,7 @@ nav ul li {
 
 .octopus .description,
 .octopus h2 {
-    padding: 10px 50px; 
+    padding: 10px 50px;
 }
 
 .octopussection h1 {
@@ -216,12 +216,13 @@ nav ul li {
     justify-content: center;
 }
 
+
 /*Nav Link Buttons*/
 
 .navButton {
     background-color: #F2F5ED;
     color: #222222;
-    text-decoration: none;    
+    text-decoration: none;
     cursor: pointer;
     transition: background-color 2s, color 2s;
     border-bottom: #73AD21 solid 0px;
@@ -250,59 +251,75 @@ nav ul li {
     -webkit-transition-timing-function: ease;
 }
 
-.post {
+.post,
+.reply {
     display: flex;
     justify-content: center;
     flex-direction: column;
     background-color: #F2F5ED;
-    padding-top: 10px;    
+    padding: 5px;
     border-radius: 10px 10px 0px 0px;
     border-bottom: 2px solid #F2F2F2;
+    box-sizing: border-box;
+    resize: none;
 }
 
-.post a{
-        align-self: center;
+.post a,
+.reply a {
+    align-self: center;
 }
-.postform {
-    display: flex;
+
+.postform,
+.replyform {
+    display: none;
     flex-direction: column;
     box-sizing: border-box;
-    width: 100%;    
-     visibility: hidden;
+    justify-content: center;
+    width: 100%;
 }
 
-.postcontrols {
+.postcontrols,
+.replycontrols {
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin-bottom: 0.5em;
 }
 
-.postarea {
+.postarea,
+.replyarea {
     box-sizing: border-box;
     resize: none;
     width: 98%;
-    border-radius: 2px ;
-    margin: 1em auto 0 auto;
+    border-radius: 2px;
     border-color: #F2F5ED;
+    align-self: center;
+}
+
+.reply {
+    border-radius: 5px;
+    clear: left;
 }
 
 ._space {
     width: 10%;
 }
 
-.postbutton {
+.postbutton,
+.replybutton {
     font-size: 25px;
 }
 
-.postlocation {
+.postlocation,
+replylocation {
     font-size: 16px;
 }
 
-.poststatus{
-    margin:1em auto;
+.poststatus {
+    margin: 1em auto;
     font-size: 18px;
     font-family: Arial;
 }
+
 
 /*End*/

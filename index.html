@@ -4,7 +4,7 @@
 
 <head>
     <title>Dan and Sravanthi's Twitter Clone Adventure</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS style sheet -->
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
@@ -17,6 +17,8 @@
     <link rel="shortcut icon" type="image/png" href="leaf_960_720.png">
     <!-- Fav Icon -->
     <script src="post_a_status.js"></script>
+    <script src="reply.js"></script>
+    <script src="toggle.js"></script>
 </head>
 
 <body>
@@ -44,25 +46,39 @@
             </nav>
         </header>
 
-        
-        <main>           
+
+        <main>
             <div class="statuses">
-               <div class="post" >
-                <a id="poststatus"> Post a status</a>
-                <form class="postform" id="postform">
-                    <textarea class="postarea" rows="4"></textarea><br>
-                    <div class="postcontrols">
-                        <input type="checkbox" ><p class="postlocation">Include Location</p><span class="_space"></span>
-                    <input type="submit"  value="Post" class="postbutton"/> 
-                    </div>
-                </form>
-             </div>
+                <div class="post">
+                    <a id="poststatus"> Post a status</a>
+                    <form class="postform" id="postform">
+                        <textarea class="postarea" rows="4"></textarea>
+                        <br>
+                        <div class="postcontrols">
+                            <input type="checkbox">
+                            <p class="postlocation">Include Location</p><span class="_space"></span>
+                            <input type="submit" value="Post" class="postbutton" />
+                        </div>
+                    </form>
+                </div>
                 <article class="status">
                     <figure class="photo"><img src="icon-user.png" alt="User Photo"></figure>
                     <h2 class="name">Daniel Alzugaray</h2>
                     <time class="date">2015-01-31</time>
                     <div class="description">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, officiis, omnis. Non autem maxime accusantium, dignissimos quam atque eaque veritatis, quod obcaecati cumque earum consequuntur tenetur esse repellendus itaque quae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, officiis, omnis. Non autem maxime accusantium, dignissimos quam atque eaque veritatis, quod obcaecati cumque earum consequuntur tenetur esse repellendus itaque quae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, officiis, omnis. Non autem maxime accusantium, dignissimos quam atque eaque veritatis, quod obcaecati cumque earum consequuntur tenetur esse repellendus itaque quae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, officiis, omnis. Non autem maxime accusantium, dignissimos quam atque eaque veritatis, quod obcaecati cumque earum consequuntur tenetur esse repellendus itaque quae.
+                    </div>
+                    <div class="reply">
+                        <a id="replyAll" class="replyAll" data-replyindex="1"> Reply</a>
+                        <form class="replyform" id="1">
+                            <textarea class="replyarea" rows="4"></textarea>
+                            <br>
+                            <div class="replycontrols">
+                                <input type="checkbox">
+                                <p class="replyocation">Include Location</p><span class="_space"></span>
+                                <input type="submit" value="Reply" class="replybutton" />
+                            </div>
+                        </form>
                     </div>
                 </article>
                 <article class="status">
@@ -72,6 +88,18 @@
                     <div class="description">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, officiis, omnis. Non autem maxime accusantium, dignissimos quam atque eaque veritatis, quod obcaecati cumque earum consequuntur tenetur esse repellendus itaque quae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, officiis, omnis. Non autem maxime accusantium, dignissimos quam atque eaque veritatis, quod obcaecati cumque earum consequuntur tenetur esse repellendus itaque quae.
                     </div>
+                    <div class="reply">
+                        <a id="replyAll" class="replyAll" data-replyindex="2"> Reply</a>
+                        <form class="replyform" id="2">
+                            <textarea class="replyarea" rows="4"></textarea>
+                            <br>
+                            <div class="replycontrols">
+                                <input type="checkbox">
+                                <p class="replyocation">Include Location</p><span class="_space"></span>
+                                <input type="submit" value="Reply" class="replybutton" />
+                            </div>
+                        </form>
+                    </div>
                 </article>
                 <article class="status">
                     <figure class="photo"><img src="icon-user.png" alt="User Photo"></figure>
@@ -79,6 +107,18 @@
                     <time class="date">2015-01-31</time>
                     <div class="description">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, officiis, omnis. Non autem maxime accusantium, dignissimos quam atque eaque veritatis, quod obcaecati cumque earum consequuntur tenetur esse repellendus itaque quae.
+                    </div>
+                    <div class="reply">
+                        <a id="replyAll" class="replyAll" data-replyindex="3"> Reply</a>
+                        <form class="replyform" id="3">
+                            <textarea class="replyarea" rows="4"></textarea>
+                            <br>
+                            <div class="replycontrols">
+                                <input type="checkbox">
+                                <p class="replyocation">Include Location</p><span class="_space"></span>
+                                <input type="submit" value="Reply" class="replybutton" />
+                            </div>
+                        </form>
                     </div>
                 </article>
                 <article class="status">
@@ -88,6 +128,18 @@
                     <div class="description">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, officiis, omnis. Non autem maxime accusantium, dignissimos quam atque eaque veritatis, quod obcaecati cumque earum consequuntur tenetur esse repellendus itaque quae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, officiis, omnis. Non autem maxime accusantium, dignissimos quam atque eaque veritatis, quod obcaecati cumque earum consequuntur tenetur esse repellendus itaque quae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, officiis, omnis. Non autem maxime accusantium, dignissimos quam atque eaque veritatis, quod obcaecati cumque earum consequuntur tenetur esse repellendus itaque quae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, officiis, omnis. Non autem maxime accusantium, dignissimos quam atque eaque veritatis, quod obcaecati cumque earum consequuntur tenetur esse repellendus itaque quae.
                     </div>
+                    <div class="reply">
+                        <a id="replyAll" class="replyAll" data-replyindex="4"> Reply</a>
+                        <form class="replyform" id="4">
+                            <textarea class="replyarea" rows="4"></textarea>
+                            <br>
+                            <div class="replycontrols">
+                                <input type="checkbox">
+                                <p class="replyocation">Include Location</p><span class="_space"></span>
+                                <input type="submit" value="Reply" class="replybutton" />
+                            </div>
+                        </form>
+                    </div>
                 </article>
                 <article class="status">
                     <figure class="photo"><img src="icon-user.png" alt="User Photo"></figure>
@@ -95,6 +147,18 @@
                     <time class="date">2015-01-31</time>
                     <div class="description">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, officiis, omnis. Non autem maxime accusantium, dignissimos quam atque eaque veritatis, quod obcaecati cumque earum consequuntur tenetur esse repellendus itaque quae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, officiis, omnis. Non autem maxime accusantium, dignissimos quam atque eaque veritatis, quod obcaecati cumque earum consequuntur tenetur esse repellendus itaque quae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, officiis, omnis. Non autem maxime accusantium, dignissimos quam atque eaque veritatis, quod obcaecati cumque earum consequuntur tenetur esse repellendus itaque quae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, officiis, omnis. Non autem maxime accusantium, dignissimos quam atque eaque veritatis, quod obcaecati cumque earum consequuntur tenetur esse repellendus itaque quae. orem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, officiis, omnis. Non autem maxime accusantium, dignissimos quam atque eaque veritatis, quod obcaecati cumque earum consequuntur tenetur esse repellendus itaque quae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, officiis, omnis. Non autem maxime accusantium, dignissimos quam atque eaque veritatis, quod obcaecati cumque earum consequuntur tenetur esse repellendus itaque quae.
+                    </div>
+                    <div class="reply">
+                        <a id="replyAll" class="replyAll" data-replyindex="5"> Reply</a>
+                        <form class="replyform" id="5">
+                            <textarea class="replyarea" rows="4"></textarea>
+                            <br>
+                            <div class="replycontrols">
+                                <input type="checkbox">
+                                <p class="replyocation">Include Location</p><span class="_space"></span>
+                                <input type="submit" value="Reply" class="replybutton" />
+                            </div>
+                        </form>
                     </div>
                 </article>
             </div>
@@ -140,10 +204,10 @@
                     </div>
                 </div>
                 <div class="bottom-right">
-                <span>Welcome to Twitter clone. BETA</span>
-            </div>
+                    <span>Welcome to Twitter clone. BETA</span>
+                </div>
             </aside>
-            
+
         </main>
 
     </div>
