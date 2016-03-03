@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
         var element = elements[i];
         element.onclick = function () {
             var form = document.getElementById(this.dataset.replyindex);
-            form.style.display = "flex";
+            form.toggle();
         };
     }
 }, false);
