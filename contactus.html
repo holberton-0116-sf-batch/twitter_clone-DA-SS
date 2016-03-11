@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>Dan and Sravanthi's Twitter Clone Adventure</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CSS style sheet -->
+  <link rel="stylesheet" href="styles/reset.css">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/mediaqueryhigh.css">
+  <link rel="stylesheet" href="styles/mediaquerymid.css">
+  <link rel="stylesheet" href="styles/mediaquerylow.css">
+  <!-- CSS style sheet -->
+  <!-- Fav Icon -->
+  <link rel="shortcut icon" type="image/png" href="images/leaf_960_720.png">
+  <!-- Fav Icon -->
+
+  <!-- For maps -->
+  <link rel="stylesheet" type="text/css" href="https://js.api.here.com/v3/3.0/mapsjs-ui.css" />
+  <script type="text/javascript" charset="UTF-8" src="https://js.api.here.com/v3/3.0/mapsjs-core.js"></script>
+  <script type="text/javascript" charset="UTF-8" src="https://js.api.here.com/v3/3.0/mapsjs-service.js"></script>
+  <script type="text/javascript" charset="UTF-8" src="https://js.api.here.com/v3/3.0/mapsjs-ui.js"></script>
+  <script type="text/javascript" charset="UTF-8" src="https://js.api.here.com/v3/3.0/mapsjs-mapevents.js"></script>
+  <script type="text/javascript" charset="UTF-8" src="scripts/maps.js"></script>
+  <!-- For maps -->
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <div class="top-header">
+        <div class="logo-wrapper">
+          <img class="logo" src="images/leaf_960_720.png" alt="Logo">
+          <div class="tagline">Nexus of people</div>
+        </div>
+        <div class="account">
+          <ul>
+            <li><a href="#">Edit my profile</a></li>
+            <li><a href="#">Log out</a></li>
+          </ul>
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html" class="navButton">Home</a></li>
+          <li><a href="user.html" class="navButton">My Statuses</a></li>
+          <li><a href="users.html" class="navButton">All Users</a></li>
+          <li><a href="AboutUs.html" class="navButton">About Us</a></li>
+          <li><a href="contactus.html" class="navButton">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="contactsection">
+        <section>
+          <h1><u>Contact Us</u></h1>
+        </section>
+        <article class="contact">
+          <div id="map" style="width: 80%; height: 600px; background: grey;margin:auto" />
+        </article>
+      </div>
+      <div class="bottom-right">
+        <span>Welcome to Twitter clone. BETA</span>
+      </div>
+    </main>
+
+  </div>
+</body>
+
+</html>
