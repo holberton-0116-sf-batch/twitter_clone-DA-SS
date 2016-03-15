@@ -73,11 +73,8 @@ nav {
   text-align: center;
   font-size: 20px;
 }
-nav ul {
-  display: flex;
-  justify-content: center;
-  border-left-color: 1px solid #f2f2f2;
-}
+
+
 nav li a {
   text-decoration: none;
   color: black;
@@ -146,9 +143,7 @@ aside .photo img {
 .usersection, .octopussection, .contactsection {
   width: 99%;
 }
-nav ul li {
-  margin: 0.3em 0.6em;
-}
+
 .octopus ,.contact{
   min-height: 200px;
 }
@@ -167,7 +162,7 @@ nav ul li {
 /*Nav Link Buttons*/
 
 .navButton {
-  background-color: #F2F5ED;
+  background: linear-gradient(#F2F5ED, #FFFFFF);
   color: #222222;
   text-decoration: none;
   cursor: pointer;
@@ -180,7 +175,7 @@ nav ul li {
 }
 .navButton:hover {
   border-bottom: #73AD21 solid 3px;
-  background-color: white;
+background: linear-gradient(#FFFFFF, #F2F5ED);
   color: #73AD21;
   background-position: 0 -100%;
   -webkit-transition-property: color background-color;
@@ -189,7 +184,7 @@ nav ul li {
 }
 .navButton:active {
   border-bottom: red solid 3px;
-  background-color: #F2F2F2;
+  background-color: #FFFFFF;
   color: #73AD21;
   -webkit-transition-property: color background-color;
   -webkit-transition-duration: 2s;

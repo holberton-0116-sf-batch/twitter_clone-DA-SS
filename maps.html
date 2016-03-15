@@ -22,11 +22,13 @@
   <script type="text/javascript" charset="UTF-8" src="https://js.api.here.com/v3/3.0/mapsjs-service.js"></script>
   <script type="text/javascript" charset="UTF-8" src="https://js.api.here.com/v3/3.0/mapsjs-ui.js"></script>
   <script type="text/javascript" charset="UTF-8" src="https://js.api.here.com/v3/3.0/mapsjs-mapevents.js"></script>
+  <script src="scripts/behavior.js"></script>
 
-  <!-- For maps -->
+
 </head>
 
 <body>
+
   <div class="container">
     <header>
       <div class="top-header">
@@ -35,14 +37,17 @@
           <div class="tagline">Nexus of people</div>
         </div>
         <div class="account">
-          <ul>
+          <ul class="">
             <li><a href="#">Edit my profile</a></li>
             <li><a href="#">Log out</a></li>
           </ul>
         </div>
       </div>
-      <nav>
-        <ul>
+    <button id="nav-button" class="navButton2"></button>
+      <nav class="nav-hide">
+
+        <ul >
+
           <li><a href="index.html" class="navButton">Home</a></li>
           <li><a href="user.html" class="navButton">My Statuses</a></li>
           <li><a href="users.html" class="navButton">All Users</a></li>
