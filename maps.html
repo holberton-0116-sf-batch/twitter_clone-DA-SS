@@ -110,7 +110,7 @@
             map.addEventListener('contextmenu', function(e) {
               //Extract the screen coordinates {x, y} from the "contextmenu" event
               //Convert the screen coordinates {x, y} to geographical coordinates {latitude, longitude}
-              var coord = map.screenToGeo(e.currentPointer.viewportX, e.currentPointer.viewportY);
+              var coord = map.screenToGeo(e.viewportX, e.viewportY);
 
               var x = coord.lat + "," + coord.lng + ",150";
               var reverseGeocodingParameters = {
