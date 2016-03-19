@@ -18,6 +18,17 @@
     nav {
         height: 50px;
     }
+    nav ul li {
+      margin: 0.3em 0.6em;
+    }
+    nav ul {
+      display: flex;
+      justify-content: center;
+      border-left-color: 1px solid #f2f2f2;
+    }
+    .navButton2    {
+    visibility: hidden;
+    }
     .statuses,.usersection,.post,.poststatus  {
         width: 100%;
     }
@@ -27,20 +38,20 @@
         justify-content: space-around;
     }
     /*under them should be the block(s) that used to be at the right of your screen, in the aside;*/
-    .users {       
+    .users {
         margin: 20px 5px;
     }
-    aside .user {       
+    aside .user {
         margin: 20px 5px;
     }
-    .ads {        
+    .ads {
         margin: 20px 5px;
     }
     /*the "beta" box at the bottom-right should be at the very bottom;*/
-    .bottom-right {       
-       margin: 20px 5px;     
-    } 
-        
+    .bottom-right {
+       margin: 20px 5px;
+    }
+
     main {
         display: flex;
         flex-direction: column;
