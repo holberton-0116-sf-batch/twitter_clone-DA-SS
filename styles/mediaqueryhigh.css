@@ -11,7 +11,7 @@
     .logo-wrapper {
         padding: 5px 30px;
     }
-    .account{
+    .account {
         padding: 5px 20px;
     }
     .navButton {
@@ -26,30 +26,53 @@
         height: 50px;
     }
     nav ul li {
-      margin: 0.3em 0.6em;
+        margin: 0.3em 0.6em;
     }
     nav ul {
-      display: flex;
-      justify-content: center;
-      border-left-color: 1px solid #f2f2f2;
+        display: flex;
+        justify-content: center;
+        border-left-color: 1px solid #f2f2f2;
     }
-    .navButton2    {
-    visibility: hidden;
+    .navButton2 {
+        visibility: hidden;
     }
     aside {
-    padding: 0px 0 30px;
-    width: 25%;
-    overflow: auto;
+        padding: 0px 0 30px;
+        width: 25%;
+        overflow: auto;
     }
     main {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+        padding-top: 120px;
     }
     .top-header {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+    }
+    .header {
+        width: 992px;
+        position: fixed;
+        z-index: 1000;
+        top: 0;
+    }
+    .header {
+        -webkit-transition-duration: .5s;
+        transition-duration: .5s;
+        -webkit-transition-timing-function: cubic-bezier( 0.215, 0.610, 0.355, 1.000);
+        transition-timing-function: cubic-bezier( 0.215, 0.610, 0.355, 1.000);
+        -webkit-transition-property: -webkit-transform;
+        transition-property: transform;
+    }
+    .header--hidden {
+        -webkit-transform: translateY( -100%);
+        -ms-transform: translateY( -100%);
+        transform: translateY( -100%);
+    }
+    .header--narrow {
+        height: 5em;
     }
 }
 
