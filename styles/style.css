@@ -15,6 +15,7 @@ body {
 
 header {
     border-radius: 10px;
+    border-radius: 10px;
     border: 1px solid #73AD21;
     background-color: #FFFFFF;
     box-shadow: 5px 8px 5px #EBEBEB;
@@ -114,7 +115,8 @@ article,
 .usersection,
 .octopus,
 .contactmap,
-.ads {
+.ads,
+.weather {
     clear: left;
     padding: 15px;
     min-height: 110px;
@@ -125,7 +127,8 @@ article + article,
 .usersection + .usersection,
 .octopus + .octopus,
 .contact+.contact,
-.ads + .ads {
+.ads + .ads,
+.weather+..weather {
     border-top: 2px solid #F2F2F2;
 }
 
@@ -183,6 +186,7 @@ aside .photo img {
 .statuses,
 aside .users,
 aside .ads,
+aside .weather,
 .usersection,
 .octopussection,
 .contactsection,
@@ -334,6 +338,11 @@ replylocation {
     margin: 1em auto;
     font-size: 18px;
     font-family: Arial;
+}
+
+.weatherinfo {
+    font-size: 1.12em;
+    margin-bottom: 0.5em;
 }
 
 
