@@ -21,14 +21,14 @@
     <script src="scripts/toggle.js"></script>
     <script src="scripts/behaviour.js"></script>
     <script src="scripts/sticky_smart_header.js"></script>
-
+    <script src="scripts/load_more.js"></script>
 
 </head>
 
 <body>
 
     <div class="container">
-        <header class="header" role="banner" s style="top:0px;">
+        <header class="header" style="top:0px;">
             <div class="top-header">
                 <div class="logo-wrapper">
                     <img class="logo" src="images/leaf_960_720.png" alt="Logo">
@@ -78,7 +78,7 @@
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, officiis, omnis. Non autem maxime accusantium, dignissimos quam atque eaque veritatis, quod obcaecati cumque earum consequuntur tenetur esse repellendus itaque quae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, officiis, omnis. Non autem maxime accusantium, dignissimos quam atque eaque veritatis, quod obcaecati cumque earum consequuntur tenetur esse repellendus itaque quae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, officiis, omnis. Non autem maxime accusantium, dignissimos quam atque eaque veritatis, quod obcaecati cumque earum consequuntur tenetur esse repellendus itaque quae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, officiis, omnis. Non autem maxime accusantium, dignissimos quam atque eaque veritatis, quod obcaecati cumque earum consequuntur tenetur esse repellendus itaque quae.
                     </div>
                     <div class="reply">
-                        <a id="replyAll" class="replyAll" data-replyindex="1"> Reply</a>
+                        <a class="replyAll" data-replyindex="1"> Reply</a>
                         <form class="replyform" id="1">
                             <textarea class="replyarea" rows="4"></textarea>
                             <br>
@@ -98,7 +98,7 @@
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, officiis, omnis. Non autem maxime accusantium, dignissimos quam atque eaque veritatis, quod obcaecati cumque earum consequuntur tenetur esse repellendus itaque quae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, officiis, omnis. Non autem maxime accusantium, dignissimos quam atque eaque veritatis, quod obcaecati cumque earum consequuntur tenetur esse repellendus itaque quae.
                     </div>
                     <div class="reply">
-                        <a id="replyAll" class="replyAll" data-replyindex="2"> Reply</a>
+                        <a class="replyAll" data-replyindex="2"> Reply</a>
                         <form class="replyform" id="2">
                             <textarea class="replyarea" rows="4"></textarea>
                             <br>
@@ -118,7 +118,7 @@
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, officiis, omnis. Non autem maxime accusantium, dignissimos quam atque eaque veritatis, quod obcaecati cumque earum consequuntur tenetur esse repellendus itaque quae.
                     </div>
                     <div class="reply">
-                        <a id="replyAll" class="replyAll" data-replyindex="3"> Reply</a>
+                        <a class="replyAll" data-replyindex="3"> Reply</a>
                         <form class="replyform" id="3">
                             <textarea class="replyarea" rows="4"></textarea>
                             <br>
@@ -138,7 +138,7 @@
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, officiis, omnis. Non autem maxime accusantium, dignissimos quam atque eaque veritatis, quod obcaecati cumque earum consequuntur tenetur esse repellendus itaque quae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, officiis, omnis. Non autem maxime accusantium, dignissimos quam atque eaque veritatis, quod obcaecati cumque earum consequuntur tenetur esse repellendus itaque quae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, officiis, omnis. Non autem maxime accusantium, dignissimos quam atque eaque veritatis, quod obcaecati cumque earum consequuntur tenetur esse repellendus itaque quae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, officiis, omnis. Non autem maxime accusantium, dignissimos quam atque eaque veritatis, quod obcaecati cumque earum consequuntur tenetur esse repellendus itaque quae.
                     </div>
                     <div class="reply">
-                        <a id="replyAll" class="replyAll" data-replyindex="4"> Reply</a>
+                        <a class="replyAll" data-replyindex="4"> Reply</a>
                         <form class="replyform" id="4">
                             <textarea class="replyarea" rows="4"></textarea>
                             <br>
@@ -170,6 +170,112 @@
                         </form>
                     </div>
                 </article>
+                <article class="status">
+                    <figure class="photo"><img src="images/icon-user.png" alt="User Photo"></figure>
+                    <h2 class="name">Gloria Stefan</h2>
+                    <time class="date">2015-01-31</time>
+                    <div class="description">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, officiis, omnis. Non autem maxime accusantium, dignissimos quam atque eaque veritatis, quod obcaecati cumque earum consequuntur tenetur esse repellendus itaque quae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, officiis, omnis. Non autem maxime accusantium, dignissimos quam atque eaque veritatis, quod obcaecati cumque earum consequuntur tenetur esse repellendus itaque quae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, officiis, omnis. Non autem maxime accusantium, dignissimos quam atque eaque veritatis, quod obcaecati cumque earum consequuntur tenetur esse repellendus itaque quae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, officiis, omnis. Non autem maxime accusantium, dignissimos quam atque eaque veritatis, quod obcaecati cumque earum consequuntur tenetur esse repellendus itaque quae.
+                    </div>
+                    <div class="reply">
+                        <a class="replyAll" data-replyindex="6"> Reply</a>
+                        <form class="replyform" id="6">
+                            <textarea class="replyarea" rows="4"></textarea>
+                            <br>
+                            <div class="replycontrols">
+                                <input type="checkbox">
+                                <p class="replyocation">Include Location</p><span class="_space"></span>
+                                <input type="submit" value="Reply" class="replybutton" />
+                            </div>
+                        </form>
+                    </div>
+                </article>
+
+                <article class="status">
+                    <figure class="photo"><img src="images/icon-user.png" alt="User Photo"></figure>
+                    <h2 class="name">Gloria Stefan</h2>
+                    <time class="date">2015-01-31</time>
+                    <div class="description">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, officiis, omnis. Non autem maxime accusantium, dignissimos quam atque eaque veritatis, quod obcaecati cumque earum consequuntur tenetur esse repellendus itaque quae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, officiis, omnis. Non autem maxime accusantium, dignissimos quam atque eaque veritatis, quod obcaecati cumque earum consequuntur tenetur esse repellendus itaque quae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, officiis, omnis. Non autem maxime accusantium, dignissimos quam atque eaque veritatis, quod obcaecati cumque earum consequuntur tenetur esse repellendus itaque quae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, officiis, omnis. Non autem maxime accusantium, dignissimos quam atque eaque veritatis, quod obcaecati cumque earum consequuntur tenetur esse repellendus itaque quae.
+                    </div>
+                    <div class="reply">
+                        <a class="replyAll" data-replyindex="7"> Reply</a>
+                        <form class="replyform" id="7">
+                            <textarea class="replyarea" rows="4"></textarea>
+                            <br>
+                            <div class="replycontrols">
+                                <input type="checkbox">
+                                <p class="replyocation">Include Location</p><span class="_space"></span>
+                                <input type="submit" value="Reply" class="replybutton" />
+                            </div>
+                        </form>
+                    </div>
+                </article>
+                <article class="status">
+                    <figure class="photo"><img src="images/icon-user.png" alt="User Photo"></figure>
+                    <h2 class="name">Gloria Stefan</h2>
+                    <time class="date">2015-01-31</time>
+                    <div class="description">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, officiis, omnis. Non autem maxime accusantium, dignissimos quam atque eaque veritatis, quod obcaecati cumque earum consequuntur tenetur esse repellendus itaque quae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, officiis, omnis. Non autem maxime accusantium, dignissimos quam atque eaque veritatis, quod obcaecati cumque earum consequuntur tenetur esse repellendus itaque quae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, officiis, omnis. Non autem maxime accusantium, dignissimos quam atque eaque veritatis, quod obcaecati cumque earum consequuntur tenetur esse repellendus itaque quae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, officiis, omnis. Non autem maxime accusantium, dignissimos quam atque eaque veritatis, quod obcaecati cumque earum consequuntur tenetur esse repellendus itaque quae. orem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, officiis, omnis. Non autem maxime accusantium, dignissimos quam atque eaque veritatis, quod obcaecati cumque earum consequuntur tenetur esse repellendus itaque quae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, officiis, omnis. Non autem maxime accusantium, dignissimos quam atque eaque veritatis, quod obcaecati cumque earum consequuntur tenetur esse repellendus itaque quae.
+                    </div>
+                    <div class="reply">
+                        <a class="replyAll" data-replyindex="8"> Reply</a>
+                        <form class="replyform" id="8">
+                            <textarea class="replyarea" rows="4"></textarea>
+                            <br>
+                            <div class="replycontrols">
+                                <input type="checkbox">
+                                <p class="replyocation">Include Location</p><span class="_space"></span>
+                                <input type="submit" value="Reply" class="replybutton" />
+                            </div>
+                        </form>
+                    </div>
+                </article>
+                <article class="status">
+                    <figure class="photo"><img src="images/icon-user.png" alt="User Photo"></figure>
+                    <h2 class="name">Gloria Stefan</h2>
+                    <time class="date">2015-01-31</time>
+                    <div class="description">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, officiis, omnis. Non autem maxime accusantium, dignissimos quam atque eaque veritatis, quod obcaecati cumque earum consequuntur tenetur esse repellendus itaque quae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, officiis, omnis. Non autem maxime accusantium, dignissimos quam atque eaque veritatis, quod obcaecati cumque earum consequuntur tenetur esse repellendus itaque quae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, officiis, omnis. Non autem maxime accusantium, dignissimos quam atque eaque veritatis, quod obcaecati cumque earum consequuntur tenetur esse repellendus itaque quae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, officiis, omnis. Non autem maxime accusantium, dignissimos quam atque eaque veritatis, quod obcaecati cumque earum consequuntur tenetur esse repellendus itaque quae. orem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, officiis, omnis. Non autem maxime accusantium, dignissimos quam atque eaque veritatis, quod obcaecati cumque earum consequuntur tenetur esse repellendus itaque quae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, officiis, omnis. Non autem maxime accusantium, dignissimos quam atque eaque veritatis, quod obcaecati cumque earum consequuntur tenetur esse repellendus itaque quae.
+                    </div>
+                    <div class="reply">
+                        <a class="replyAll" data-replyindex="9"> Reply</a>
+                        <form class="replyform" id="9">
+                            <textarea class="replyarea" rows="4"></textarea>
+                            <br>
+                            <div class="replycontrols">
+                                <input type="checkbox">
+                                <p class="replyocation">Include Location</p><span class="_space"></span>
+                                <input type="submit" value="Reply" class="replybutton" />
+                            </div>
+                        </form>
+                    </div>
+                </article>
+                <article class="status">
+                    <figure class="photo"><img src="images/icon-user.png" alt="User Photo"></figure>
+                    <h2 class="name">Gloria Stefan</h2>
+                    <time class="date">2015-01-31</time>
+                    <div class="description">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, officiis, omnis. Non autem maxime accusantium, dignissimos quam atque eaque veritatis, quod obcaecati cumque earum consequuntur tenetur esse repellendus itaque quae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, officiis, omnis. Non autem maxime accusantium, dignissimos quam atque eaque veritatis, quod obcaecati cumque earum consequuntur tenetur esse repellendus itaque quae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, officiis, omnis. Non autem maxime accusantium, dignissimos quam atque eaque veritatis, quod obcaecati cumque earum consequuntur tenetur esse repellendus itaque quae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, officiis, omnis. Non autem maxime accusantium, dignissimos quam atque eaque veritatis, quod obcaecati cumque earum consequuntur tenetur esse repellendus itaque quae. orem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, officiis, omnis. Non autem maxime accusantium, dignissimos quam atque eaque veritatis, quod obcaecati cumque earum consequuntur tenetur esse repellendus itaque quae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, officiis, omnis. Non autem maxime accusantium, dignissimos quam atque eaque veritatis, quod obcaecati cumque earum consequuntur tenetur esse repellendus itaque quae.
+                    </div>
+                    <div class="reply">
+                        <a class="replyAll" data-replyindex="10"> Reply</a>
+                        <form class="replyform" id="10">
+                            <textarea class="replyarea" rows="4"></textarea>
+                            <br>
+                            <div class="replycontrols">
+                                <input type="checkbox">
+                                <p class="replyocation">Include Location</p><span class="_space"></span>
+                                <input type="submit" value="Reply" class="replybutton" />
+                            </div>
+                        </form>
+                    </div>
+                </article>
+
+                <div class="showmore" id="showmore">
+                    <a id="showmoreButton">See More</a>
+                </div>
+                <div id="morestatuses"></div>
             </div>
             <aside>
                 <div class="users">

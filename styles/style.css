@@ -261,7 +261,8 @@ aside .ads,
 }
 
 .post,
-.reply {
+.reply,
+.showmore {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -274,8 +275,13 @@ aside .ads,
 }
 
 .post a,
-.reply a {
+.reply a,
+.showmore a {
     align-self: center;
+}
+
+.showmore {
+    border-radius: 0px 0px 10px 10px;
 }
 
 .postform,
