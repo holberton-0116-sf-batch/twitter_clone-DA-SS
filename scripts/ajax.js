@@ -1,3 +1,13 @@
+/**
+ * Attaches the table drag behavior to tables.
+ *
+ * @type {Drupal~behavior}
+ * 
+ * @prop {Drupal~behaviorAttach} attach
+ *   Specific description of this attach function goes here.
+ * @prop {Drupal~behaviorDetach} detach
+ *   Specific description of this detach function goes here.
+ */
 function ajaxGet(url, onSuccess) {
     var xmlhttp;
     if (window.XMLHttpRequest) {
