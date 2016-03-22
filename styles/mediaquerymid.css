@@ -1,5 +1,5 @@
 @media screen and (max-width:992px) and (min-width:768px) {
-     .container {
+    .container {
         margin: 0px 15px;
     }
     .logo-wrapper {
@@ -14,22 +14,26 @@
         border-top-left-radius: 1px;
         border-top-right-radius: 1px;
         padding-bottom: 8px !important;
+        font-size: 20px;
     }
     nav {
         height: 50px;
     }
     nav ul li {
-      margin: 0.3em 0.6em;
+        margin: 0.3em 0.6em;
     }
     nav ul {
-      display: flex;
-      justify-content: center;
-      border-left-color: 1px solid #f2f2f2;
+        display: flex;
+        justify-content: center;
+        border-left-color: 1px solid #f2f2f2;
     }
-    .navButton2    {
-    visibility: hidden;
+    .navButton2 {
+        visibility: hidden;
     }
-    .statuses,.usersection,.post,.poststatus  {
+    .statuses,
+    .usersection,
+    .post,
+    .poststatus {
         width: 100%;
     }
     aside {
@@ -49,9 +53,8 @@
     }
     /*the "beta" box at the bottom-right should be at the very bottom;*/
     .bottom-right {
-       margin: 20px 5px;
+        margin: 20px 5px;
     }
-
     main {
         display: flex;
         flex-direction: column;

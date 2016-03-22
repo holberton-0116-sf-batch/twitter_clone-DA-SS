@@ -94,7 +94,6 @@ header {
 
 nav {
     text-align: center;
-    font-size: 20px;
 }
 
 nav li a {
@@ -243,6 +242,7 @@ aside .weather,
     -webkit-transition-property: color background-color;
     -webkit-transition-duration: 2s;
     -webkit-transition-timing-function: ease;
+    font-size: 20px;
 }
 
 .navButton:hover {
@@ -253,6 +253,7 @@ aside .weather,
     -webkit-transition-property: color background-color;
     -webkit-transition-duration: 2s;
     -webkit-transition-timing-function: ease;
+    font-size: 20px;
 }
 
 .navButton:active {
@@ -262,6 +263,7 @@ aside .weather,
     -webkit-transition-property: color background-color;
     -webkit-transition-duration: 2s;
     -webkit-transition-timing-function: ease;
+    font-size: 20px;
 }
 
 .post,
