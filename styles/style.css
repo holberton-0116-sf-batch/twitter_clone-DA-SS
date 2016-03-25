@@ -285,10 +285,16 @@ aside .weather,
     resize: none;
 }
 
-.post a,
-.reply a,
-.showmore a {
+.post div,
+.reply div {
     align-self: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.showmore div {
+    align-self: center;
+    text-decoration: none;
 }
 
 .showmore {

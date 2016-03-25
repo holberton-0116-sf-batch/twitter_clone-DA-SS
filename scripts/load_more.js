@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 });
                 a.disabled = false;
                 a.style.backgroundColor = "#F2F5ED";
-                a.style.cursor = "default";
+                a.style.cursor = "pointer";
             }, 2000);
 
         });
