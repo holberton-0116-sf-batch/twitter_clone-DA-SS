@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en" xml:lang="en">
 
 <head>
     <title>Dan and Sravanthi's Twitter Clone Adventure</title>
@@ -44,7 +44,7 @@
                     </ul>
                 </div>
             </div>
-            <button id="nav-button" class="navButton2"></button>
+            <button id="nav-button" class="navButton2" title="Navigate"></button>
             <nav class="nav-hide">
 
                 <ul>
@@ -64,12 +64,13 @@
                 <div class="post">
                     <a id="poststatus"> Post a status</a>
                     <form class="postform" id="postform">
-                        <textarea class="postarea" rows="4"></textarea>
+                        <textarea class="replyarea" rows="4" title="Type your Post"></textarea>
                         <br>
                         <div class="postcontrols">
-                            <input type="checkbox">
-                            <p class="postlocation">Include Location</p><span class="_space"></span>
-                            <input type="submit" value="Post" class="postbutton" />
+                            <input type="checkbox" id="includelocation" checked="unchecked">
+                            <label for="includelocation" class="postlocation">Include Location</label>
+                            <span class="_space"></span>
+                            <input type="submit" value="Post" class="postbutton" name="post" />
                         </div>
                     </form>
                 </div>
@@ -83,11 +84,12 @@
                     <div class="reply">
                         <a class="replyAll" data-replyindex="1"> Reply</a>
                         <form class="replyform" id="1">
-                            <textarea class="replyarea" rows="4"></textarea>
+                            <textarea class="replyarea" rows="4" title="Type your Reply"></textarea>
                             <br>
                             <div class="replycontrols">
-                                <input type="checkbox">
-                                <p class="replyocation">Include Location</p><span class="_space"></span>
+                                <input type="checkbox" id="includelocation1">
+                                <label for="includelocation1" class="postlocation">Include Location</label>
+                                <span class="_space"></span>
                                 <input type="submit" value="Reply" class="replybutton" />
                             </div>
                         </form>
@@ -103,11 +105,12 @@
                     <div class="reply">
                         <a class="replyAll" data-replyindex="2"> Reply</a>
                         <form class="replyform" id="2">
-                            <textarea class="replyarea" rows="4"></textarea>
+                            <textarea class="replyarea" rows="4" title="Type your Reply"></textarea>
                             <br>
                             <div class="replycontrols">
-                                <input type="checkbox">
-                                <p class="replyocation">Include Location</p><span class="_space"></span>
+                                <input type="checkbox" id="includelocation2">
+                                <label for="includelocation2" class="postlocation">Include Location</label>
+                                <span class="_space"></span>
                                 <input type="submit" value="Reply" class="replybutton" />
                             </div>
                         </form>
@@ -123,11 +126,12 @@
                     <div class="reply">
                         <a class="replyAll" data-replyindex="3"> Reply</a>
                         <form class="replyform" id="3">
-                            <textarea class="replyarea" rows="4"></textarea>
+                            <textarea class="replyarea" rows="4" title="Type your Reply"></textarea>
                             <br>
                             <div class="replycontrols">
-                                <input type="checkbox">
-                                <p class="replyocation">Include Location</p><span class="_space"></span>
+                                <input type="checkbox" id="includelocation3">
+                                <label for="includelocation3" class="postlocation">Include Location</label>
+                                <span class="_space"></span>
                                 <input type="submit" value="Reply" class="replybutton" />
                             </div>
                         </form>
@@ -143,11 +147,12 @@
                     <div class="reply">
                         <a class="replyAll" data-replyindex="4"> Reply</a>
                         <form class="replyform" id="4">
-                            <textarea class="replyarea" rows="4"></textarea>
+                            <textarea class="replyarea" rows="4" title="Type your Reply"></textarea>
                             <br>
                             <div class="replycontrols">
-                                <input type="checkbox">
-                                <p class="replyocation">Include Location</p><span class="_space"></span>
+                                <input type="checkbox" id="includelocation4">
+                                <label for="includelocation4" class="postlocation">Include Location</label>
+                                <span class="_space"></span>
                                 <input type="submit" value="Reply" class="replybutton" />
                             </div>
                         </form>
@@ -163,11 +168,12 @@
                     <div class="reply">
                         <a id="replyAll" class="replyAll" data-replyindex="5"> Reply</a>
                         <form class="replyform" id="5">
-                            <textarea class="replyarea" rows="4"></textarea>
+                            <textarea class="replyarea" rows="4" title="Type your Reply"></textarea>
                             <br>
                             <div class="replycontrols">
-                                <input type="checkbox">
-                                <p class="replyocation">Include Location</p><span class="_space"></span>
+                                <input type="checkbox" id="includelocation5">
+                                <label for="includelocation5" class="postlocation">Include Location</label>
+                                <span class="_space"></span>
                                 <input type="submit" value="Reply" class="replybutton" />
                             </div>
                         </form>
@@ -183,11 +189,12 @@
                     <div class="reply">
                         <a class="replyAll" data-replyindex="6"> Reply</a>
                         <form class="replyform" id="6">
-                            <textarea class="replyarea" rows="4"></textarea>
+                            <textarea class="replyarea" rows="4" title="Type your Reply"></textarea>
                             <br>
                             <div class="replycontrols">
-                                <input type="checkbox">
-                                <p class="replyocation">Include Location</p><span class="_space"></span>
+                                <input type="checkbox" id="includelocation6">
+                                <label for="includelocation6" class="postlocation">Include Location</label>
+                                <span class="_space"></span>
                                 <input type="submit" value="Reply" class="replybutton" />
                             </div>
                         </form>
@@ -204,11 +211,12 @@
                     <div class="reply">
                         <a class="replyAll" data-replyindex="7"> Reply</a>
                         <form class="replyform" id="7">
-                            <textarea class="replyarea" rows="4"></textarea>
+                            <textarea class="replyarea" rows="4" title="Type your Reply"></textarea>
                             <br>
                             <div class="replycontrols">
-                                <input type="checkbox">
-                                <p class="replyocation">Include Location</p><span class="_space"></span>
+                                <input type="checkbox" id="includelocation7">
+                                <label for="includelocation7" class="postlocation">Include Location</label>
+                                <span class="_space"></span>
                                 <input type="submit" value="Reply" class="replybutton" />
                             </div>
                         </form>
@@ -224,11 +232,12 @@
                     <div class="reply">
                         <a class="replyAll" data-replyindex="8"> Reply</a>
                         <form class="replyform" id="8">
-                            <textarea class="replyarea" rows="4"></textarea>
+                            <textarea class="replyarea" rows="4" title="Type your Reply"></textarea>
                             <br>
                             <div class="replycontrols">
-                                <input type="checkbox">
-                                <p class="replyocation">Include Location</p><span class="_space"></span>
+                                <input type="checkbox" id="includelocation8">
+                                <label for="includelocation8" class="postlocation">Include Location</label>
+                                <span class="_space"></span>
                                 <input type="submit" value="Reply" class="replybutton" />
                             </div>
                         </form>
@@ -244,11 +253,12 @@
                     <div class="reply">
                         <a class="replyAll" data-replyindex="9"> Reply</a>
                         <form class="replyform" id="9">
-                            <textarea class="replyarea" rows="4"></textarea>
+                            <textarea class="replyarea" rows="4" title="Type your Reply"></textarea>
                             <br>
                             <div class="replycontrols">
-                                <input type="checkbox">
-                                <p class="replyocation">Include Location</p><span class="_space"></span>
+                                <input type="checkbox" id="includelocation9">
+                                <label for="includelocation9" class="postlocation">Include Location</label>
+                                <span class="_space"></span>
                                 <input type="submit" value="Reply" class="replybutton" />
                             </div>
                         </form>
@@ -264,11 +274,12 @@
                     <div class="reply">
                         <a class="replyAll" data-replyindex="10"> Reply</a>
                         <form class="replyform" id="10">
-                            <textarea class="replyarea" rows="4"></textarea>
+                            <textarea class="replyarea" rows="4" title="Type your Reply"></textarea>
                             <br>
                             <div class="replycontrols">
-                                <input type="checkbox">
-                                <p class="replyocation">Include Location</p><span class="_space"></span>
+                                <input type="checkbox" id="includelocation10" class="postlocation">
+                                <label for="includelocation10">Include Location</label>
+                                <span class="_space"></span>
                                 <input type="submit" value="Reply" class="replybutton" />
                             </div>
                         </form>

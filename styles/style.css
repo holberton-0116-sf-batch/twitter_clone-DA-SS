@@ -2,6 +2,11 @@ a {
     color: red;
 }
 
+.clickable {
+    color: red;
+    cursor: pointer;
+}
+
 body {
     background-color: #F2F5ED;
 }
