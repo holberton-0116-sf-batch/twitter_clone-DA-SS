@@ -303,7 +303,7 @@ aside .weather,
 
 .postform,
 .replyform {
-    display: none;
+    display: flex;
     flex-direction: column;
     box-sizing: border-box;
     justify-content: center;
@@ -356,6 +356,11 @@ replylocation {
 .weatherinfo {
     font-size: 1.12em;
     margin-bottom: 0.5em;
+}
+
+footer {
+    margin-top: 0.8em;
+    background-image: url("/images/dark-background.jpg");
 }
 
 
