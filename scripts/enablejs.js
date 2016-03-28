@@ -1,3 +1,6 @@
+/*
+Enable JavaScript
+ */
 document.addEventListener("DOMContentLoaded", function () {
     var elements = document.querySelectorAll('.postform');
 
