@@ -363,5 +363,9 @@ footer {
     background-image: url("/images/dark-background.jpg");
 }
 
+footer .nav-hide {
+    padding: 0.6em;
+}
+
 
 /*End*/
