@@ -1,9 +1,9 @@
 a {
-    color: red;
+    color: #b60000;
 }
 
 .clickable {
-    color: red;
+    color: #b60000;
     cursor: pointer;
 }
 
@@ -71,7 +71,7 @@ header {
 .account a {
     text-decoration: none;
     background-color: white;
-    color: red;
+    color: #b60000;
     transition-property: color background-color;
     transition-duration: 2s;
     transition-timing-function: ease;
@@ -238,7 +238,7 @@ aside .weather,
 
 .navButton {
     background: linear-gradient(#F2F5ED, #FFFFFF);
-    color: #222222;
+    color: black;
     text-decoration: none;
     cursor: pointer;
     transition: background-color 2s, color 2s;
@@ -365,6 +365,10 @@ footer {
 
 footer .nav-hide {
     padding: 0.6em;
+}
+
+.location {
+    display: none;
 }
 
 
