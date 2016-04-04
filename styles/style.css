@@ -375,6 +375,7 @@ replylocation {
 
 footer {
     margin-top: 0.8em;
+    bottom: 0;
     background-image: url("../images/dark-background.jpg");
 }
 
@@ -389,11 +390,16 @@ footer .nav-hide {
 
 /* styling the author information in the footer */
 
-.author-info {
+.author-info,
+.oct-video {
     color: white;
     margin: auto;
     display: table;
     padding-bottom: 0.6em;
+}
+
+.oct-video {
+    color: black;
 }
 
 
