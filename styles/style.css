@@ -375,7 +375,7 @@ replylocation {
 
 footer {
     margin-top: 0.8em;
-    background-image: url("/images/dark-background.jpg");
+    background-image: url("../images/dark-background.jpg");
 }
 
 footer .nav-hide {
