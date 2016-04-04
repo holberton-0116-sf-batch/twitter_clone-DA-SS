@@ -22,6 +22,10 @@
         padding-bottom: 8px !important;
         font-size: 20px;
     }
+    .nav-bottom {
+        border-bottom-left-radius: 3px;
+        border-bottom-right-radius: 3px;
+    }
     nav {
         height: 50px;
     }

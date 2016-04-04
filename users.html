@@ -1,6 +1,4 @@
-<!DOCTYPE html>
-
-<html>
+<html lang="en" xml:lang="en">
 
 <head>
     <title>Dan and Sravanthi's Twitter Clone Adventure</title>
@@ -14,41 +12,49 @@
     <!-- CSS style sheet -->
     <!-- Fav Icon -->
     <link rel="shortcut icon" type="image/png" href="images/leaf_960_720.png">
-        <!-- Fav Icon -->
-  <script src="scripts/behaviour.js"></script>
+    <!-- Fav Icon -->
+    <script src="scripts/enablejs.js"></script>
+    <script src="scripts/post_a_status.js"></script>
+    <script src="scripts/reply.js"></script>
+    <script src="scripts/toggle.js"></script>
+    <script src="scripts/behaviour.js"></script>
+    <script src="scripts/sticky_smart_header.js"></script>
+    <script src="scripts/ajax.js"></script>
+    <script src="scripts/load_more.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.js"></script>
 
+</head>
 
-  </head>
-
-  <body>
-
+<body>
     <div class="container">
-      <header>
-        <div class="top-header">
-          <div class="logo-wrapper">
-            <img class="logo" src="images/leaf_960_720.png" alt="Logo">
-            <div class="tagline">Nexus of people</div>
-          </div>
-          <div class="account">
-            <ul class="">
-              <li><a href="#">Edit my profile</a></li>
-              <li><a href="#">Log out</a></li>
-            </ul>
-          </div>
-        </div>
-      <button id="nav-button" class="navButton2"></button>
-        <nav class="nav-hide">
+        <header class="header" style="top:0px;">
+            <div class="top-header">
+                <div class="logo-wrapper">
+                    <img class="logo" src="images/leaf_960_720.png" alt="Logo">
+                    <div class="tagline">Nexus of people</div>
+                </div>
+                <div class="account">
+                    <ul class="">
+                        <li><a href="#">Edit my profile</a></li>
+                        <li><a href="#">Log out</a></li>
+                    </ul>
+                </div>
+            </div>
+            <button id="nav-button" class="navButton2" title="Navigate"></button>
+            <nav class="nav-show">
 
-          <ul >
+                <ul>
 
-            <li><a href="index.html" class="navButton">Home</a></li>
-            <li><a href="user.html" class="navButton">My Statuses</a></li>
-            <li><a href="users.html" class="navButton">All Users</a></li>
-            <li><a href="AboutUs.html" class="navButton">About Us</a></li>
-            <li><a href="contactus.html" class="navButton">Contact Us</a></li>
-          </ul>
-        </nav>
-      </header>
+                    <li><a href="index.html" class="navButton">Home</a></li>
+                    <li><a href="user.html" class="navButton">My Statuses</a></li>
+                    <li><a href="users.html" class="navButton">All Users</a></li>
+                    <li><a href="AboutUs.html" class="navButton">About Us</a></li>
+                    <li><a href="contactus.html" class="navButton">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+
 
         <main>
             <div class="usersection">
@@ -74,9 +80,9 @@
                     </div>
                 </article>
             </div>
-             <div class="bottom-right">
-            <span>Welcome to Twitter clone. BETA</span>
-        </div>
+            <div class="bottom-right">
+                <span>Welcome to Twitter clone. BETA</span>
+            </div>
         </main>
 
 

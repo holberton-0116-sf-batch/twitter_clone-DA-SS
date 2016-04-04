@@ -20,11 +20,18 @@ document.addEventListener("DOMContentLoaded", function () {
                         form.toggle();
                     };
                 }
+
+                ajaxGet('/scripts/statuses-1.json', function eResponses(data) {
+                    var source = document.getElementById("result-template").innerHTML;
+                    var template = Handlebars.compile(source);
+                    document.getElementById("resultDiv").innerHTML = template(JSON.parse(data));
+                });
                 a.disabled = false;
                 a.style.backgroundColor = "#F2F5ED";
-                a.style.cursor = "default";
+                a.style.cursor = "pointer";
             }, 2000);
 
         });
     });
+
 });

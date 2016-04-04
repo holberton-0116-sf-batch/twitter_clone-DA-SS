@@ -1,5 +1,10 @@
 a {
-    color: red;
+    color: #b60000;
+}
+
+.clickable {
+    color: #b60000;
+    cursor: pointer;
 }
 
 body {
@@ -66,7 +71,7 @@ header {
 .account a {
     text-decoration: none;
     background-color: white;
-    color: red;
+    color: #b60000;
     transition-property: color background-color;
     transition-duration: 2s;
     transition-timing-function: ease;
@@ -233,7 +238,7 @@ aside .weather,
 
 .navButton {
     background: linear-gradient(#F2F5ED, #FFFFFF);
-    color: #222222;
+    color: black;
     text-decoration: none;
     cursor: pointer;
     transition: background-color 2s, color 2s;
@@ -266,6 +271,21 @@ aside .weather,
     font-size: 20px;
 }
 
+.nav-bottom {
+    background: linear-gradient(#F2F5ED, #FFFFFF);
+    border-top: #73AD21 solid 0px;
+    background-position: 0 100%;
+}
+
+.nav-bottom:hover {
+    border-top: #73AD21 solid 3px;
+    background-position: -100% 0;
+}
+
+.nav-bottom:active {
+    border-top: red solid 3px;
+}
+
 .post,
 .reply,
 .showmore {
@@ -280,10 +300,16 @@ aside .weather,
     resize: none;
 }
 
-.post a,
-.reply a,
-.showmore a {
+.post div,
+.reply div {
     align-self: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.showmore div {
+    align-self: center;
+    text-decoration: none;
 }
 
 .showmore {
@@ -292,7 +318,7 @@ aside .weather,
 
 .postform,
 .replyform {
-    display: none;
+    display: flex;
     flex-direction: column;
     box-sizing: border-box;
     justify-content: center;
@@ -345,6 +371,29 @@ replylocation {
 .weatherinfo {
     font-size: 1.12em;
     margin-bottom: 0.5em;
+}
+
+footer {
+    margin-top: 0.8em;
+    background-image: url("/images/dark-background.jpg");
+}
+
+footer .nav-hide {
+    padding: 0.6em;
+}
+
+.location {
+    display: none;
+}
+
+
+/* styling the author information in the footer */
+
+.author-info {
+    color: white;
+    margin: auto;
+    display: table;
+    padding-bottom: 0.6em;
 }
 
 
