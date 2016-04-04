@@ -271,6 +271,21 @@ aside .weather,
     font-size: 20px;
 }
 
+.nav-bottom {
+    background: linear-gradient(#F2F5ED, #FFFFFF);
+    border-top: #73AD21 solid 0px;
+    background-position: 0 100%;
+}
+
+.nav-bottom:hover {
+    border-top: #73AD21 solid 3px;
+    background-position: -100% 0;
+}
+
+.nav-bottom:active {
+    border-top: red solid 3px;
+}
+
 .post,
 .reply,
 .showmore {
@@ -369,6 +384,16 @@ footer .nav-hide {
 
 .location {
     display: none;
+}
+
+
+/* styling the author information in the footer */
+
+.author-info {
+    color: white;
+    margin: auto;
+    display: table;
+    padding-bottom: 0.6em;
 }
 
 
